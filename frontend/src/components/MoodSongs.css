@@ -1,109 +1,18 @@
-/* MoodSongs.css */
-
 .mood-songs {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 3rem;
-  color: #e0e0e0;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #1a1a1a;
-  border-radius: 12px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 4rem;
+    padding-top: 0;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .mood-songs h2 {
-  margin-bottom: 1.5rem;
-  font-size: 1.7rem;
-  font-weight: 700;
-  color: #a7f3d0;
-  text-shadow: 0 0 10px rgba(167, 243, 208, 0.2);
+    margin-bottom: 1rem;
 }
 
 .mood-songs .song {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0.75rem 0;
-  padding: 1rem 1.25rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 10px;
-  gap: 1.5rem;
-  transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-}
-
-.mood-songs .song:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-.mood-songs .title {
-  flex: 1;
-  min-width: 0;
-}
-
-.mood-songs .title h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.2;
-  color: #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.mood-songs .title p {
-  margin: 4px 0 0;
-  font-size: 0.9rem;
-  opacity: 0.7;
-  font-style: italic;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.play-pause-button {
-  flex-shrink: 0;
-}
-
-.play-pause-button audio {
-    width: 200px;
-    transition: all 0.3s ease;
-}
-
-.play-btn {
-  background: linear-gradient(45deg, #a7f3d0, #6ee7b7);
-  border: none;
-  padding: 0; /* Let the icon size determine the button size */
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  transition: transform 0.2s, box-shadow 0.2s;
-  color: #1a1a1a;
-  box-shadow: 0 2px 8px rgba(167, 243, 208, 0.3);
-}
-
-.play-btn:hover {
-  transform: scale(1.1);
-  box-shadow: 0 4px 15px rgba(167, 243, 208, 0.5);
-}
-
-.play-btn:active {
-  transform: scale(0.95);
-  box-shadow: 0 2px 5px rgba(167, 243, 208, 0.2);
-}
-
-.play-btn i {
-  font-size: 1.5rem; /* Fixed icon size to be reasonable */
-  line-height: 1;
-  display: block;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0.5rem 0;
 }
